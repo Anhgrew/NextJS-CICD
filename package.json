@@ -1,5 +1,5 @@
 {
-  "name": "youtube-2020-april-nextjs-part8",
+  "name": "NextJS-CICD",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "@material-ui/core": "4.11.0",
     "@material-ui/icons": "4.9.1",
-    "next": "9.5.2",
+    "next": "11.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sqlite": "4.0.14",
