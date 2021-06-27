@@ -12,7 +12,7 @@ import Head from 'next/head';
 import React from 'react';
 import theme from '../theme';
 
-const prefix = '/NextJS-CICD';
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default class MyApp extends App {
   componentDidMount() {
