@@ -13,7 +13,7 @@ export interface IndexProps {
   microphones: Microphone[];
 }
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const prefix = '/NextJS-CICD'
 
 export default function Index({ microphones }: IndexProps) {
   return (
